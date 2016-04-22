@@ -66,29 +66,29 @@ What's on the keyboard
 
 The keyboard is your main interface to your computer. I find it surprising that many people don't know where some symbols are, even if they spend significant amounts of their lifetime in front of a keyboard. Here are some special synonyms. Make yourself familiar with where they are on your keyboard.
 
-    - Bindestrich, Dash, Hyphen
-    _ Underscore, Unterstrich
-    : Doppelpunkt, Colon,
-    . Punkt, Dot, Stop, Point
-    , Komma
-    ()Klammer, Braces, Parentheses
-    []Eckige Klammer, Brackets
-    {}Schweifklammer, Curly Braces
-    <>Winkelklammer, Angle Bracket, Kleiner Als, Größer als
-    / Forward Slash
-    \ Backward Slash
-    | Pipe
-    ~ Tilde
-    ^ Caret, Accent Circonflexe
-    % Percent
-    $ Dollar
-    @ At, Klammeraffe
-    # Hash, Pound, Number, Doppelkreuz
-    ! Ausrufezeichen, Bang
-    = Istgleich, Equals
-    ' Quote
-    " Douple Quote
-    & Ampersand, Kaufmannsund
+    -  Bindestrich, Dash, Hyphen
+    _  Underscore, Unterstrich
+    :  Doppelpunkt, Colon,
+    .  Punkt, Dot, Stop, Point
+    ,  Komma
+    () Klammer, Braces, Parentheses
+    [] Eckige Klammer, Brackets
+    {} Schweifklammer, Curly Braces
+    <> Winkelklammer, Angle Bracket, Kleiner Als, Größer als
+    /  Forward Slash
+    \  Backward Slash
+    |  Pipe
+    ~  Tilde
+    ^  Caret, Accent Circonflexe
+    %  Percent
+    $  Dollar
+    @  At, Klammeraffe
+    #  Hash, Pound, Number, Doppelkreuz
+    !  Ausrufezeichen, Bang
+    =  Istgleich, Equals
+    '  Quote
+    "  Douple Quote
+    &  Ampersand, Kaufmannsund
 
     CTRL        Control, Steuerung, STRG
     ALT         Alternative
@@ -99,7 +99,7 @@ The keyboard is your main interface to your computer. I find it surprising that 
 
 Additionally, there are some invisible characters. You know SPACE " ", but in Python you should be aware of "\t". Printing this sequence (backslash t) means the TABULATOR key, which is located left of the Q key. In modern text editors, it is used to indent your code. The Enter key is often abbreviated with "\n", which is short for 'New Line'.
 
-I recommend that you>
+I recommend that you...
 
  - Get familiar with OS shortcuts. Using the mouse is really slow. Leaving the keyboard slows you down.
  - When typing, make use of the "Jumping" Commands.
@@ -110,26 +110,28 @@ Mac Keyboards
 -------------
 
 On Macs you can use:
-    - FN + CTRL + LEFT    = Home (Beginning of Row)
-    - FN + CTRL + RIGHT   = End (...of Row)
-    - FN + Up Arrow       = PAGE UP
-    - FN + Down Arrow     = PAGE DOWN
 
- - Curly:    { }  = ALT + ( / )
- - Brackets: [ ]  = ALT + SHIFT + ( / )
+    FN + CTRL + LEFT    = Home (Beginning of Row)
+    FN + CTRL + RIGHT   = End (...of Row)
+    FN + Up Arrow       = PAGE UP
+    FN + Down Arrow     = PAGE DOWN
 
-Pro Tip: Learn the shortcut to switch language layouts (Alt Shift / Windows Space under Windows). The special characters needed for programming are much easier to access on the English keyboard, as they have no use for Umlauts.
+To type the braces, use:
 
+    Curly:    { }  = ALT + ( / )
+    Brackets: [ ]  = ALT + SHIFT + ( / )
+
+Pro Tip: Learn the shortcut to switch language layouts (Alt + Shift / Windows + Space under Windows). The special characters needed for programming are much easier to access on the English keyboard, as they have no use for Umlauts.
 
 Choosing an Editor
 ==================
 
 The choice of editor doesn't matter. Pick one you like. One will feel "right". I encourage you to try out others. If you have been using Notepad++, try Atom for this lecture. Maybe you will like it, or it may teach you why you where right to begin with.
 
- - [Notepad++](https://notepad-plus-plus.org/)
- - [Sublime Text 3](https://www.sublimetext.com/3)
- - [Atom](https://atom.io/)
- - [PyCharm](https://www.jetbrains.com/pycharm/) - Not recommended, yet
+ - [Notepad++](https://notepad-plus-plus.org/) - Solid, reliable, but also a bit old-school
+ - [Sublime Text 3](https://www.sublimetext.com/3) - Good looking and reliable
+ - [Atom](https://atom.io/) - Modern and powerful
+ - [PyCharm](https://www.jetbrains.com/pycharm/) - Not recommended, yet. IDEs are powerful, but only if you are know what you are doing. They can be really bad for learning, but you should give one a try as soon as you can write a bit of python.
  - [Vim](http://www.vim.org/), see [http://vimcasts.org/](http://vimcasts.org/) - Powerful, useful to know, but very, VERY step learning curve. Not recommended, especially if there are characters on the keyboard that you don't know.
  - Jupyter Notebook - Something different, we'll see later.
 
@@ -137,12 +139,13 @@ The choice of editor doesn't matter. Pick one you like. One will feel "right". I
     - notepad
     - wordpad
     - Word
+
  - Please do use:
     - Monospaced Fonts
     - An Editor with Syntax Highlighting
     - An Editor with Auto Completion
 
- - Please setup your editor to indent using spaces.
+ - Please setup your editor to indent using spaces. This is really important, as in python, you should never mix indentation styles. We'll discuss this again, so don't worry. You will get used to it.
 
 Git
 ===
