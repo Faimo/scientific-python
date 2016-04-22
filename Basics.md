@@ -43,7 +43,7 @@ Tutorial: [http://cli.learncodethehardway.org/book/](http://cli.learncodethehard
 
 As soon as you have opened your terminal, you can run Python:
 
-    $ python
+    $ Python
 
 This will output something like this:
 
@@ -52,11 +52,11 @@ This will output something like this:
     Type "help", "copyright", "credits" or "license" for more information.
     >>>
 
-Make sure you are running Python 3.5. The ```>>> ``` indicates that python is now waiting for your input. Your are in the so called "REPL" - this is the READ - EXECUTE - PRINT - Loop. It reads in commands and outputs (prints) their results immediately. This is great for trying out python syntax.
+Make sure you are running Python 3.5. The ```>>> ``` indicates that Python is now waiting for your input. Your are in the so called "REPL" - this is the READ - EXECUTE - PRINT - Loop. It reads in commands and outputs (prints) their results immediately. This is great for trying out Python syntax.
 
-If typing ```$ python``` didn't do anything, you may need to setup your terminal to find the python command, you need to follow these instructions:
+If typing ```$ Python``` didn't do anything, you may need to setup your terminal to find the Python command, you need to follow these instructions:
 
-https://docs.python.org/3.5/using/windows.html#configuring-python
+https://docs.Python.org/3.5/using/windows.html#configuring-Python
 
 You can also ask me, I will help you to get started.
 
@@ -131,7 +131,7 @@ The choice of editor doesn't matter. Pick one you like. One will feel "right". I
  - [Notepad++](https://notepad-plus-plus.org/) - Solid, reliable, but also a bit old-school
  - [Sublime Text 3](https://www.sublimetext.com/3) - Good looking and reliable
  - [Atom](https://atom.io/) - Modern and powerful
- - [PyCharm](https://www.jetbrains.com/pycharm/) - Not recommended, yet. IDEs are powerful, but only if you are know what you are doing. They can be really bad for learning, but you should give one a try as soon as you can write a bit of python.
+ - [PyCharm](https://www.jetbrains.com/pycharm/) - Not recommended, yet. IDEs are powerful, complete programming environments, ment for professional use. They can be really bad for learning, but you should give one a try as soon as you can write a bit of Python.
  - [Vim](http://www.vim.org/), see [http://vimcasts.org/](http://vimcasts.org/) - Powerful, useful to know, but very, VERY step learning curve. Not recommended, especially if there are characters on the keyboard that you don't know.
  - Jupyter Notebook - Something different, we'll see later.
 
@@ -145,12 +145,12 @@ The choice of editor doesn't matter. Pick one you like. One will feel "right". I
     - An Editor with Syntax Highlighting
     - An Editor with Auto Completion
 
- - Please setup your editor to indent using spaces. This is really important, as in python, you should never mix indentation styles. We'll discuss this again, so don't worry. You will get used to it.
+ - Please setup your editor to indent using 4 spaces. This is really important, as in Python, you should never mix indentation styles. We'll discuss this again, so don't worry. You will get used to it.
 
 Git
 ===
 
-Make yourself familiar with git. Git is a practical tool that every software developer should know. Git can be really complicated but is really worth learning about, since you can use it to share and distribute code and other files, track changes and get organized. You can use it even if you lose interest in python, as you can easily track LaTeX Document and other files with it.
+Make yourself familiar with git. Git is a practical tool that every software developer should know. Git can be really complicated but is really worth learning about, since you can use it to share and distribute code and other files, track changes and get organized. You can use it even if you lose interest in Python, as you can easily track LaTeX Document and other files with it.
 
 To use git, you need a couple of commands. You enter directory and then start a "Repository".
 
@@ -176,16 +176,14 @@ Doing status again will show you that git understood that you would like to cons
 
 Doing a commit means that you want to store this chunk of work. You also provide a message. Here you should state why did what you did.
 
-
-
 I recommend using git from the commandline, but there are visual tools available.
 
- - [Git Guis](https://git-scm.com/download/gui/linux)
+ - [Graphical Git Clients](https://git-scm.com/download/gui/linux)
  - [SourceTree][https://www.sourcetreeapp.com/] is really good.
 
 I will distribute my lecture notes with git. To get started, you can call:
 
-    $ git clone https://github.com/cessor/scientific-python.git
+    $ git clone https://github.com/cessor/scientific-Python.git
 
 If something changes, use this:
 
@@ -195,29 +193,28 @@ This will pull the latest copy of the lecture notes from the server.
 
 Python
 ======
-Now for some python...
-
+Now for some Python...
 
 Picking the right version
 -------------------------
 
 Python is a programming language, but there is more to the story and some terms might be confusing.
 
-Python itself is a language. There are two main versions, 2.7 and 3.5. They differ in many ways. I recommend that you use python 3.5.
+Python itself is a language. There are two main versions, 2.7 and 3.5. They differ in many ways. I recommend that you use Python 3.5.
 
-When you download python, you get an interpreter. This interpreter is a program that executes your code in a certain way. There are many interpreters, and they differ in the way they execute the code. Some are faster, some are slower, and there are other reasons why different interpreters exist. For our purposes, the normal, default interpreter, called CPython is fine.
+When you download Python, you get an interpreter. This interpreter is a program that executes your code in a certain way. There are many interpreters, and they differ in the way they execute the code. Some are faster, some are slower, and there are other reasons why different interpreters exist. For our purposes, the normal, default interpreter, called CPython is fine.
 
 
 Python comes with pip
 ---------------------
 
-Python itself is just a language. It can't do much, unless you tell it to. With just the language you can't zip files or download stuff. Therefore the default install comes packed with a basic library, which already contains tons of stuff. Take a look at [The Python Standard Library](https://docs.python.org/3.5/library/index.html). Like this, python follows a "Batteries included" approach.
+Python itself is just a language. It can't do much, unless you tell it to. With just the language you can't zip files or download stuff. Therefore the default install comes packed with a basic library, which already contains tons of stuff. Take a look at [The Python Standard Library](https://docs.Python.org/3.5/library/index.html). Like this, Python follows a "Batteries included" approach.
 
-There are, however, many things you want to do, that you can't do with a python off the shelf. If you would like to convert a markdown file with python, you need a translation tool. This tool can be installed with pip. Pip is short for "Pip installs packages", see [recursive acronym](https://en.wikipedia.org/wiki/Recursive_acronym).
+There are, however, many things you want to do, that you can't do with a Python off the shelf. If you would like to convert a markdown file with Python, you need a translation tool. This tool can be installed with pip. Pip is short for "Pip installs packages", see [recursive acronym](https://en.wikipedia.org/wiki/Recursive_acronym).
 
 There are cases where pip can't install your packages. Either you install build tools to remove the problem, or you try to find prepackaged binaries. Under Windows, you can download .wheel distributed packages and install them with pip:
 
-    http://www.lfd.uci.edu/~gohlke/pythonlibs/
+    http://www.lfd.uci.edu/~gohlke/Pythonlibs/
 
 If you have trouble with this approach, you can use the anaconda distribution. I never used it myself, but I hear it is quite simple to use.
 
@@ -248,7 +245,7 @@ Syntax
 
 How is syntax defined? A language's syntax is described by the rules that the interpreter uses to make sense of the code you wrote. In Python, these rules are defined in an explicit grammar file:
 
-    https://docs.python.org/2/reference/grammar.html
+    https://docs.Python.org/2/reference/grammar.html
 
 In this file, you find statemens like the following:
 
@@ -278,4 +275,4 @@ Keywords
     >>> keyword.kwlist
 
 Next Step: Builtins
-https://docs.python.org/3.5/library/functions.html
+https://docs.Python.org/3.5/library/functions.html
