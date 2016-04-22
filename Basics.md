@@ -214,11 +214,11 @@ There are, however, many things you want to do, that you can't do with a Python 
 
 There are cases where pip can't install your packages. Either you install build tools to remove the problem, or you try to find prepackaged binaries. Under Windows, you can download .wheel distributed packages and install them with pip:
 
-    http://www.lfd.uci.edu/~gohlke/Pythonlibs/
+http://www.lfd.uci.edu/~gohlke/Pythonlibs/
 
 If you have trouble with this approach, you can use the anaconda distribution. I never used it myself, but I hear it is quite simple to use.
 
-    https://www.continuum.io/downloads
+https://www.continuum.io/downloads
 
 Basic Python
 ------------
