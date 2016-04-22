@@ -3,7 +3,7 @@ What is Markdown?
 
 My lecture notes will be formated in markdown. Markdown is a minimal, plain text document syntax. Markdown formatted documents are structured using plain text and can be used as such, but it is possible to convert them to other formats. If you need a pdf or html page, you can use [pandoc](http://pandoc.org/). Find the syntax specified here:
 
-    https://daringfireball.net/projects/markdown/
+https://daringfireball.net/projects/markdown/
 
 How to install things...
 ========================
@@ -224,7 +224,7 @@ Basic Python
 ------------
 
     >>> 1 + 1
-
+    2
     >>> def function():
     ...     print('hello')
 
@@ -232,20 +232,24 @@ In the first session we saw some very basic stuff. We discussed how there is syn
 
 Semantics are about what the language understands that I want.
 
-    'Hello' + ', World'
+   >>> 'Hello' + ', World'
+   Hello, World
 
 Are meaningful. Adding two strings results in a new, concatenated string.
 
-    'Hello' - 'Hello'
+    >>> 'Hello' - 'Hello'
+    Traceback (most recent call last):
+    File "<stdin>", line 1, in <module>
+    TypeError: unsupported operand type(s) for -: 'str' and 'str'
 
-on the other hand has no intuitive meaning and will result in a semantic error. Semantics are the exciting part of a programming language. Syntax is usually quite easy, but we'll have to discuss it first.
+This, on the other hand, has no intuitive meaning and will result in a semantic error (a TypeError). Semantics are the exciting part of a programming language. Syntax is usually quite easy, but we'll have to discuss it first.
 
 Syntax
 ------
 
 How is syntax defined? A language's syntax is described by the rules that the interpreter uses to make sense of the code you wrote. In Python, these rules are defined in an explicit grammar file:
 
-    https://docs.Python.org/2/reference/grammar.html
+https://docs.Python.org/2/reference/grammar.html
 
 In this file, you find statemens like the following:
 
