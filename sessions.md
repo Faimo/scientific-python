@@ -1,14 +1,14 @@
-29.04 - Datatypes and Builtins
-06.05 - Functions, Libraries
-13.05 - Entfällt
-20.05 - Entfällt
-27.05 - Functional Programming, Recursion
-03.06 - OO
-10.06 - IPython, Numpy, Scipy
-17.06 - Web Programming, Scrape and Serve
-24.06 - Django I 
-01.07 - Django II
-08.07 - OTree I
-15.07 - OTree II
-22.07 - Hackathon, Free
-29.07 - Klausurenphase?
+ - 29.04 - Datatypes and Builtins
+ - 06.05 - Functions, Libraries
+ - 13.05 - Entfällt
+ - 20.05 - Entfällt
+ - 27.05 - Functional Programming, Recursion
+ - 03.06 - OO 
+ - 10.06 - IPython, Numpy, Scipy
+ - 17.06 - Web Programming, Scrape and Serve
+ - 24.06 - Django I 
+ - 01.07 - Django II
+ - 08.07 - OTree I
+ - 15.07 - OTree II
+ - 22.07 - Hackathon
+ - 29.07 - Klausurenphase?
